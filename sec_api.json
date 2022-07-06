@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": "4055",
+            "parent_exercise_id": null,
+            "name": "Reading_Practice",
+            "slug": "english-501__Reading_Practice_md",
+            "sequence_num": 0,
+            "review_type": "manual",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/english-501/Reading_Practice.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "4057",
+            "parent_exercise_id": null,
+            "name": "Reading Strategies",
+            "slug": "english-501__Reading_Strategies_md",
+            "sequence_num": 100,
+            "review_type": "manual",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/english-501/Reading_Strategies.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "4056",
+            "parent_exercise_id": null,
+            "name": "Vocabulary",
+            "slug": "english-501__Vocabulary_md",
+            "sequence_num": 200,
+            "review_type": "manual",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/english-501/Vocabulary.md",
+            "submission_type": null,
+            "childExercises": []
+        },
+        {
+            "id": "4058",
+            "parent_exercise_id": null,
+            "name": "Samvaad",
+            "slug": "english-501__Samvaad_md",
+            "sequence_num": 300,
+            "review_type": "manual",
+            "github_link": "https://github.com/navgurukul/newton/tree/master/english-501/Samvaad.md",
+            "submission_type": null,
+            "childExercises": []
+        }
+    ]
+}

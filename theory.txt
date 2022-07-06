@@ -1,0 +1,63 @@
+web server and normal server
+server are the central piece of full stack development
+
+web browsing: is application software for accessing the World Wide Web or a local website.
+
+types of server......
+web server: dealing with http ..content which can be handed over http protocol
+application server: aplication logic which calculate the aplication and return according to the request
+authentication server: An authentication server provides a network service that applications use to authenticate the credentials, usually account names and passwords, of their users.
+email server: An email server, or simply mail server, is an application or computer in a network whose sole purpose is to act as a virtual post office. 
+database server: A database server is a server which uses a database application that provides database services to other computer programs or to computers, as defined by the client–server model
+file server: In computing, a file server is a computer attached to a network that provides a location for shared disk access, i.e. storage of computer files that can be accessed by the workstations
+ that are able to reach the computer that shares the access through a computer network
+plug-in: In computing, a plug-in is a software component that adds a specific feature to an existing computer program. When a program supports plug-ins, it enables customization. 
+
+protpcol: a well known set of rules and standards used to communicate between machines
+
+
+http:hypertext transfer protocol an application-layer protocol for transmitting hypermedia documents, such as HTML.
+ It was designed for communication between web browsers and web servers
+https: secure ..locked http
+url: uniform resource locator
+api:application programming inerface: is a messenger that takes request and tells system what you want to developmentand returns the response back
+
+isp: internet service provider---it connects billions of devices around the world through thousands of networks that are all interconnected
+ip: internet protocol(32 bits long)
+dns: domain name system
+tcp: transmission control protocol--manages the sending and receiving of all the data as packets.
+....A layer of securty around your communications
+ssl: Secure Sockets Layer....a standard technique for transmitting documents securely across a network.
+tls: Transport Layer Security.....are designed to provide security at the transport layer. 
+is a cryptographic protocol designed to provide communications security over a computer network.
+
+cookies:Cookies are text files with small pieces of data — like a username and password — 
+that are used to identify your computer as you use a computer network.
+cookies is what website use to remember who u are
+
+request: Python Requests is a powerful tool that provides the simple elegance of Python to make HTTP requests to any API in the world.
+
+scraping: various methods used to collect information from across the Internet
+
+REST stands for Representational State Transfer
+REST is an architecture style for designing networked applications.
+
+params=query: API Query parameters can be defined as the optional key-value pairs that appear after the question mark in the URL.
+
+response.json(): response.json() returns a JSON object of the result (if the result was written in JSON format, if not it raises an error).
+
+how to call api:
+def get_data(self, api):
+response = requests.get(f"{api}")
+if response.status_code == 200:
+print("sucessfully fetched the data")
+self.formatted_print(response.json())
+else:
+print(f"Hello person, there's a {response.status_code} error with your request")
+
+
+lattitude:
+longitude:
+
+
+RAM: Random Access Memory
